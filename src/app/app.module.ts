@@ -13,12 +13,13 @@ import { ProductService } from './product.service';
     AppComponent,
     ProductPageComponent,
     ProductDescriptionComponent
+
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule,
-    ProductService
+    HttpModule
+
   ],
   providers: [ProductService],
   bootstrap: [AppComponent]
